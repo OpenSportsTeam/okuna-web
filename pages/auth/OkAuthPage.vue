@@ -2,7 +2,7 @@
     <section class="hero is-fullheight ok-has-background-primary-highlight">
         <ok-modals></ok-modals>
         <div class="columns is-flex-1 is-flex-touch flex-direction-column-reverse-touch is-marginless">
-            <div class="column ok-has-background-primary is-flex flex-direction-column">
+            <!-- <div class="column ok-has-background-primary is-flex flex-direction-column">
                 <div class="columns is-flex-1 is-vcentered is-centered is-marginless">
                     <div class="column content is-medium is-7-desktop">
                         <h1 class="has-padding-bottom-10 has-text-rounded ok-has-text-primary-invert">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <ok-footer></ok-footer>
-            </div>
+            </div> -->
             <div class="column is-paddingless">
                 <nuxt-child></nuxt-child>
             </div>
@@ -51,7 +51,7 @@
 
 <style>
     .has-background-emojis {
-        background: url("./assets/emojis-bg.png") no-repeat center center fixed;
+        background: url("https://images.unsplash.com/photo-1611153662015-c64eefbcc5eb?auto=format&fit=max&w=1600&q=80") no-repeat center center fixed;
         background-size: cover;
     }
 </style>

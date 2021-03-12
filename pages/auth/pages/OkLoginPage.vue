@@ -4,7 +4,7 @@
             <div class="card is-relative has-overflow-hidden ok-has-background-primary">
                 <div class="card-header ok-has-border-bottom-primary-highlight">
                     <div class="card-header-title is-flex align-items-center justify-center has-padding-20">
-                        <ok-logo></ok-logo>
+                        <ok-logo style="max-width: 80%"></ok-logo>
                     </div>
                 </div>
                 <div class="card-content">

@@ -26,7 +26,7 @@ export class EnvironmentService implements IEnvironmentService {
     }
 
     get apiUrl() {
-        return process.env['API_URL'] as string;
+        return (process.env['API_URL'] as string).trim().replace(/\/$/, '');
     }
 
     get contentProxyUrl() {
